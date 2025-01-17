@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: argocd-app-container
-        image: $REGISTRY/$REPOSITORY:$IMAGE_TAG
+        image: ${REGISTRY}/${REPOSITORY}:${IMAGE_TAG}
         ports:
           - protocol: TCP
             containerPort: 8080
