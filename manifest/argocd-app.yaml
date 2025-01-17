@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: argocd-app-container
-        image: ${REGISTRY}/${REPOSITORY}:${IMAGE_TAG}
+        image: 061039762031.dkr.ecr.ap-northeast-2.amazonaws.com/eks:c58f10f3a93fde3d2d05ff34777544012f275f17
         ports:
           - protocol: TCP
             containerPort: 8080
